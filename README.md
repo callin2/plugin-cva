@@ -1,35 +1,7 @@
 # Tweakpane plugin template
-Plugin template of an input binding for [Tweakpane][tweakpane].
+Plugin cva of an input binding for [Tweakpane][tweakpane].
 
 
-# For plugin developers
-TODO: Delete this section before publishing your plugin.
-
-
-## Quick start
-- Install dependencies:
-  ```
-  % npm install
-  ```
-- Build source codes and watch changes:
-  ```
-  % npm start
-  ```
-- Open `test/browser.html` to see the result.
-
-
-## File structure
-```
-|- src
-|  |- sass ............ Plugin CSS
-|  |- index.ts ........ Entrypoint
-|  |- plugin.ts ....... Plugin
-|  |- controller.ts ... Controller for the custom view
-|  `- view.ts ......... Custom view
-|- dist ............... Compiled files
-`- test
-   `- browser.html .... Plugin labo
-```
 
 
 # For plugin users
@@ -41,10 +13,10 @@ TODO: Delete this section before publishing your plugin.
 ### Browser
 ```html
 <script src="tweakpane.min.js"></script>
-<scirpt src="tweakpane-plugin-template.min.js"></script>
+<scirpt src="tweakpane-plugin-cva.min.js"></script>
 <script>
   const pane = new Tweakpane.Pane();
-  pane.registerPlugin(TweakpaneTemplatePlugin);
+  pane.registerPlugin(TweakpaneCvaPlugin);
 </script>
 ```
 
@@ -52,10 +24,10 @@ TODO: Delete this section before publishing your plugin.
 ### Package
 ```js
 import {Pane} from 'tweakpane';
-import * as TemplatePlugin from 'tweakpane-plugin-template';
+import * as CvaPlugin from 'tweakpane-plugin-cva';
 
 const pane = new Pane();
-pane.registerPlugin(TemplatePlugin);
+pane.registerPlugin(CvaPlugin);
 ```
 
 
