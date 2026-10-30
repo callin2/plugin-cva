@@ -1,9 +1,9 @@
 {
-  "name": "tweakpane-plugin-template",
+  "name": "tweakpane-plugin-cva",
   "version": "0.0.0",
   "description": "Plugin template for Tweakpane",
-  "main": "dist/tweakpane-plugin-template.js",
-  "author": "cocopon",
+  "main": "dist/tweakpane-plugin-cva.js",
+  "author": "callin",
   "license": "MIT",
   "files": [
     "dist"
